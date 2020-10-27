@@ -27,7 +27,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Builder
 @EqualsAndHashCode
-public class Image implements Serializable{
+public class Images implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
@@ -40,5 +40,11 @@ public class Image implements Serializable{
 	private String image_path;
 
 	private String image_name;
+	
+	private String small_image_url;
+
+	private String small_image_path;
+
+	private String small_image_name;
 
 }

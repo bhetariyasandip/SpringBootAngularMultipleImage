@@ -1,0 +1,6 @@
+.ngxImageZoomThumbnail {
+  height: 200px !important;
+  width: 200px !important;
+  max-height: 200px !important;
+  max-width: 200px !important;
+}
